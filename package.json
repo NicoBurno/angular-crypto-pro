@@ -1,6 +1,6 @@
 {
   "name": "angular-crypto-pro",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "angular сервис для crypto-pro",
   "main": "src/index.js",
   "scripts": {
