@@ -14,6 +14,6 @@ CryptoProService.$inject = ['$q'];
 
 const module = angular
 	.module("angular-crypto-pro", [])
-	.factory("CryptoPro", CryptoProService);
+	.service("CryptoPro", CryptoProService);
 
 export default module.name;
