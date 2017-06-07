@@ -1,0 +1,37 @@
+{
+  "name": "angular-crypto-pro",
+  "version": "0.1.0",
+  "description": "angular сервис для crypto-pro",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack",
+    "build": "NODE_ENV=\"production\" webpack -p --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoBurno/angular-crypto-pro.git"
+  },
+  "keywords": [
+    "angular",
+    "crypto-pro"
+  ],
+  "author": "NicoBurno <nicoburno@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicoBurno/angular-crypto-pro/issues"
+  },
+  "homepage": "https://github.com/NicoBurno/angular-crypto-pro#readme",
+  "dependencies": {
+    "crypto-pro": "^1.0.10"
+  },
+  "peerDependencies": {
+    "angular": "^1.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^2.6.1"
+  }
+}
