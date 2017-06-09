@@ -36,7 +36,7 @@ var config = module.exports = {
         umdNamedDefine: true
     },
     devtool: isProduction ? 'source-map' : 'eval',
-    watch: true,
+    watch: !isProduction,
     module: {
     	rules
     },
