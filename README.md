@@ -21,7 +21,7 @@ npm install --save angular-crypto-pro
 Все точно так же как в **[crypto-pro](https://github.com/vgoma/crypto-pro)**, только подключайте в виде сервиса:
 ```JavaScript
 angular
-    .module('your-app')
+    .module('your-app', ['angular-crypto-pro'])
     .controller('CryptoProDemoController', (CryptoPro) => {
         CryptoPro.call('getCertsList')
             .then((certList) => {
